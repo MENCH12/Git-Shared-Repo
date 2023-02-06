@@ -16,7 +16,7 @@ header {
 }
 
 .companyLogo img {
-	width: 200px;
+	width: 500px;
 	height: 100px;
 }
 
@@ -26,8 +26,8 @@ header {
 }
 
 .displayImage {
-	width: 350px;
-	height: 350px;
+	width: 450px;
+	height: 450px;
 }
 
 .headerLinks a {

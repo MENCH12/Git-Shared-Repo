@@ -1,8 +1,102 @@
 body {
-  background-color lightblue;
+	background-color: lightgrey;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: Arial, sans-serif;
 }
 
-h1 {
-  color navy;
-  margin-left 20px;
+header {
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em;
+	color: white;
+}
+
+.companyLogo img {
+	width: 200px;
+	height: 100px;
+}
+
+.productPicture img {
+	width: 250px;
+	height: 250px;
+}
+
+.headerLinks a {
+	color: white;
+	text-decoration: none;
+	margin: 0 1em;
+}
+
+hr {
+	margin: 0;
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.display {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 2em;
+}
+
+.checkoutMessage {
+	width: 50%;
+	text-align: left;
+	margin-bottom: 2em;
+}
+
+.cart {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	padding: 1em;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px grey;
+}
+
+table {
+	margin: 2em;
+	width: 80%;
+	border-collapse: collapse;
+}
+
+td, th {
+	padding: 1em;
+	text-align: center;
+}
+
+.btnIncrease, .btnDecrease {
+	width: 2em;
+	height: 2em;
+	background-color: black;
+	color: white;
+	border-radius: 50%;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.btnCheckout, .btnAddProduct {
+	margin-top: 2em;
+	padding: 1em 2em;
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.displayImage, .displayTitle, .productDesc, .pageDesc {
+	width: 80%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
 }

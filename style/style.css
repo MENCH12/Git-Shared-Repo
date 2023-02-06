@@ -25,6 +25,11 @@ header {
 	height: 250px;
 }
 
+.displayImage {
+	width: 350px;
+	height: 350px;
+}
+
 .headerLinks a {
 	color: white;
 	text-decoration: none;
